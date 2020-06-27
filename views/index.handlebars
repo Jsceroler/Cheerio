@@ -1,0 +1,12 @@
+{{> nav}}
+<section id="stuff">
+    {{#if article}}
+        {{#each article}}
+            <div class="placeholder">
+                <h2><a href={{link}} target="_blank">{{title}}</a></h2>
+                <a href={{link}} target="_blank"><img src={{image}}></a>
+                <button>Save</button>
+            </div>
+        {{/each}}
+    {{/if}}
+</section>
