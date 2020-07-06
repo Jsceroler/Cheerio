@@ -2,11 +2,14 @@
 <section id="stuff">
     {{#if article}}
         {{#each article}}
-            <div class="placeholder">
+            <div id="wrapper">
+                <div id="article">
                 <h2><a href={{link}} target="_blank">{{title}}</a></h2>
                 <a href={{link}} target="_blank"><img src={{image}}></a>
-                <button>Save</button>
+                <button type="submit" class="btn btn-lg" data-id={{_id}}>Notes</button>
+                </div>
             </div>
+            
         {{/each}}
     {{/if}}
 </section>

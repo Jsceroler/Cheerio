@@ -1,0 +1,14 @@
+div.placeholder{
+    background-color:lightblue;
+}
+div.container{
+    background-color: darkslateblue;
+}
+nav#navWrap{
+    background-color: darkslateblue;
+    color: whitesmoke;
+}
+button{
+    background-color: darkslateblue;
+    color: whitesmoke;
+}

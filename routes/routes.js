@@ -22,7 +22,7 @@ module.exports = function (app) {
             console.log(err);
         }
         if (found) {
-            console.log("This has been saved");
+            console.log("This has been scraped");
         } else {
             db.Article.create(result)
                 .then(function (dbArticle) {})
